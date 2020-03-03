@@ -37,6 +37,8 @@ class DetailVC: UIViewController {
         detailView.nameLabel.text = "\(user.name.title). \(user.name.first) \(user.name.last)"
         detailView.addressLabel.text = "\(user.location.street.number) \(user.location.street.name)\n\(user.location.city), \(user.location.state)\n\(user.location.postcode)"
         detailView.profileImageView.kf.setImage(with: URL(string: user.picture.large))
+        detailView.dobLabel.text = "Birthday: \(user.dob.date), Age: \(user.dob.age)"
+        detailView.phoneLabel.text = "Phone #: \(user.phone)"
     }
 
 }

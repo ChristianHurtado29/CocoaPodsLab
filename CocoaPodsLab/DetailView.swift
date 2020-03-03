@@ -24,6 +24,7 @@ class DetailView: UIView {
         let label = UILabel()
         label.font = UIFont(name: "Helvetica", size: 40)
         label.textAlignment = .center
+        label.numberOfLines = 0
         return label
     }()
     
@@ -31,6 +32,13 @@ class DetailView: UIView {
         let label = UILabel()
         label.font = UIFont(name: "Helvetica", size: 20)
         label.text = "dob label"
+        return label
+    }()
+    
+    public lazy var phoneLabel: UILabel = {
+        let label = UILabel()
+        label.font = UIFont(name: "Helvetica", size: 20)
+        label.text = "phone label"
         return label
     }()
     
@@ -55,6 +63,8 @@ class DetailView: UIView {
         setupNameLabel()
         setupImageView()
         setupDOB()
+        setupPhone()
+        setupAddress()
     }
     
     private func setupNameLabel(){
@@ -77,6 +87,22 @@ class DetailView: UIView {
         addSubview(dobLabel)
         dobLabel.snp.makeConstraints { (make) in
             make.top.equalTo(nameLabel).inset(200)
+            make.centerX.equalTo(center)
+        }
+    }
+    
+    private func setupPhone(){
+        addSubview(phoneLabel)
+        phoneLabel.snp.makeConstraints { (make) in
+            make.top.equalTo(dobLabel).inset(100)
+            make.centerX.equalTo(center)
+        }
+    }
+    
+    private func setupAddress(){
+        addSubview(addressLabel)
+        addressLabel.snp.makeConstraints { (make) in
+            make.top.equalTo(phoneLabel).inset(50)
             make.centerX.equalTo(center)
         }
     }
