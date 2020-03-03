@@ -11,7 +11,7 @@ import UIKit
 class DetailVC: UIViewController {
     
     private let detailView = DetailView()
-    
+
     
     override func loadView() {
         view = detailView
