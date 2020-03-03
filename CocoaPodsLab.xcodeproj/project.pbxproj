@@ -15,6 +15,7 @@
 		13ABADFF240EB85D003F2B20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13ABADFD240EB85D003F2B20 /* LaunchScreen.storyboard */; };
 		13ABAE07240EBD44003F2B20 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ABAE06240EBD44003F2B20 /* APIClient.swift */; };
 		13ABAE09240EBD7B003F2B20 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ABAE08240EBD7B003F2B20 /* User.swift */; };
+		13ABAE0B240EC49B003F2B20 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ABAE0A240EC49B003F2B20 /* UserCell.swift */; };
 		C34134BF41DCF1563437F9CC /* Pods_CocoaPodsLab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D46236C789A0E6F3160B66 /* Pods_CocoaPodsLab.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		13ABAE00240EB85D003F2B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13ABAE06240EBD44003F2B20 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		13ABAE08240EBD7B003F2B20 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		13ABAE0A240EC49B003F2B20 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		90155D3A83E838250E6AF47E /* Pods-CocoaPodsLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaPodsLab.debug.xcconfig"; path = "Target Support Files/Pods-CocoaPodsLab/Pods-CocoaPodsLab.debug.xcconfig"; sourceTree = "<group>"; };
 		A4D46236C789A0E6F3160B66 /* Pods_CocoaPodsLab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoaPodsLab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87DCA91E0CDC0157A56B7A3 /* Pods-CocoaPodsLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaPodsLab.release.xcconfig"; path = "Target Support Files/Pods-CocoaPodsLab/Pods-CocoaPodsLab.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				13ABADF4240EB85A003F2B20 /* SceneDelegate.swift */,
 				13ABADF6240EB85A003F2B20 /* InitialVC.swift */,
 				13ABAE08240EBD7B003F2B20 /* User.swift */,
+				13ABAE0A240EC49B003F2B20 /* UserCell.swift */,
 				13ABAE06240EBD44003F2B20 /* APIClient.swift */,
 				13ABADF8240EB85A003F2B20 /* Main.storyboard */,
 				13ABADFB240EB85D003F2B20 /* Assets.xcassets */,
@@ -214,6 +217,7 @@
 			files = (
 				13ABADF7240EB85A003F2B20 /* InitialVC.swift in Sources */,
 				13ABADF3240EB85A003F2B20 /* AppDelegate.swift in Sources */,
+				13ABAE0B240EC49B003F2B20 /* UserCell.swift in Sources */,
 				13ABADF5240EB85A003F2B20 /* SceneDelegate.swift in Sources */,
 				13ABAE09240EBD7B003F2B20 /* User.swift in Sources */,
 				13ABAE07240EBD44003F2B20 /* APIClient.swift in Sources */,
