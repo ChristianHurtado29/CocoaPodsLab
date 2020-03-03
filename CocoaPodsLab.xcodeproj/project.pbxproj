@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13073B0B240EF59100F36E12 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13073B0A240EF59100F36E12 /* DetailVC.swift */; };
+		13073B0D240EF5A000F36E12 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13073B0C240EF5A000F36E12 /* DetailView.swift */; };
 		13ABADF3240EB85A003F2B20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ABADF2240EB85A003F2B20 /* AppDelegate.swift */; };
 		13ABADF5240EB85A003F2B20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ABADF4240EB85A003F2B20 /* SceneDelegate.swift */; };
 		13ABADF7240EB85A003F2B20 /* InitialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ABADF6240EB85A003F2B20 /* InitialVC.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13073B0A240EF59100F36E12 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		13073B0C240EF5A000F36E12 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		13ABADEF240EB85A003F2B20 /* CocoaPodsLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaPodsLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13ABADF2240EB85A003F2B20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13ABADF4240EB85A003F2B20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 				13ABADF2240EB85A003F2B20 /* AppDelegate.swift */,
 				13ABADF4240EB85A003F2B20 /* SceneDelegate.swift */,
 				13ABADF6240EB85A003F2B20 /* InitialVC.swift */,
+				13073B0A240EF59100F36E12 /* DetailVC.swift */,
+				13073B0C240EF5A000F36E12 /* DetailView.swift */,
 				13ABAE08240EBD7B003F2B20 /* User.swift */,
 				13ABAE0A240EC49B003F2B20 /* UserCell.swift */,
 				13ABAE06240EBD44003F2B20 /* APIClient.swift */,
@@ -216,11 +222,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				13ABADF7240EB85A003F2B20 /* InitialVC.swift in Sources */,
+				13073B0D240EF5A000F36E12 /* DetailView.swift in Sources */,
 				13ABADF3240EB85A003F2B20 /* AppDelegate.swift in Sources */,
 				13ABAE0B240EC49B003F2B20 /* UserCell.swift in Sources */,
 				13ABADF5240EB85A003F2B20 /* SceneDelegate.swift in Sources */,
 				13ABAE09240EBD7B003F2B20 /* User.swift in Sources */,
 				13ABAE07240EBD44003F2B20 /* APIClient.swift in Sources */,
+				13073B0B240EF59100F36E12 /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Alamofire
 import Kingfisher
 
 class UserCell: UICollectionViewCell {
@@ -17,7 +16,7 @@ class UserCell: UICollectionViewCell {
     @IBOutlet weak var profileView: UIImageView!
     
     public func configureCell(user: User) {
-        print("\(user.name.title)\(user.name.title) \(user.name.first) \(user.name.last)")
+        print("\(user.name.title). \(user.name.first) \(user.name.last)")
         nameLabel.text = "\(user.name.title). \(user.name.first) \(user.name.last)"
         addressLabel.text = "\(user.location.street.number) \(user.location.street.name)\n\(user.location.city), \(user.location.state)\n\(user.location.postcode)"
         guard let imageURL = URL(string: user.picture.large) else { return }
